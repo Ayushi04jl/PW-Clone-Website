@@ -1,0 +1,109 @@
+@media screen and (max-width:767px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .catt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20%;
+    }
+    .navtoggle{
+        visibility: visible;
+        display: block;
+        margin-left: 10px;
+        margin-top: 8px;
+        margin-right: 0px;
+    }
+
+    .navbar,.courses {
+        display: none;
+    }  
+    .register{
+        width:auto;
+        padding: 8px;
+        font-size: 14px;
+    }  
+
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 1px;
+    }    
+
+    .PWLOGO {
+        width: 91px;
+        height: 40px;
+        gap: 0px;
+        margin:0px;
+        padding: 0px;
+        margin-right: 120px;
+    } 
+    .footercontainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    } 
+    .footercolumn{
+        margin-bottom: 20px;
+    }  
+    .solving{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .down{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    
+    .contt{
+        margin-right: 40px;
+        margin-left: 10px;
+        width: 40px;
+    }
+    .downinfo{
+        font-size: 10px;
+    }
+    .continfo{
+        font-size: 9px;
+        line-height: 30px;
+        font-weight: 20;
+    }
+    .started{
+        width:190px;
+        padding: 15px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .categories h1{
+        font-size: 27px;
+
+    }
+    .cate h1{
+        font-size: 20px;
+    }
+    .infoflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .inside{
+        font-size: 10px;
+    }
+    .dow{
+        line-height: 20px;
+    }
+}
+    

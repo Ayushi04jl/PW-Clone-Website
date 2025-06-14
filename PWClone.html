@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PW Clone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PWClone.css">
+    <link rel="stylesheet" href="media query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <nav class="logo">
+            <span class="material-symbols-outlined navtoggle">menu</span>          
+            <a href="#"><img class="PWLOGO" src="Images/PW logo.jpg"></a>
+            <button class="courses">All Courses</button>
+            <span class="navbar">Vidyapeeth</span></a>
+            <span class="navbar">Upskilling</span>
+            <span class="navbar">PW Store(Books)</span>
+            <span class="navbar">Test Series</span>
+            <span class="navbar">CuriousJr</span>
+            <span class="navbar">Power Batch</span>
+            <button class="register">Login/Register</button>
+        
+        </nav>
+    </header>
+    <main>
+        <div class="carousel-container">
+            <div class="carousel-slide" id="carouselSlide">
+               <img class="imgg" src="Images/ban1.webp" alt="Image 1">
+               <img class="imgg" src="Images/ban2.webp" alt="Image 2">
+               <img class="imgg" src="Images/ban3.jpg" alt="Image 3">
+               <img class="imgg" src="Images/ban4.jpg" alt="Image 4">
+               <img class="imgg" src="Images/ban5.webp" alt="Image 5">
+            </div>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+    
+        </div>
+        <div class="container">
+            <img class="cont" src="Images/hero-student-w.webp">
+            <div class="info">
+            <span class="continfo"><h1>                     Bharat’s <span class="colour"> Trusted &</span>
+                     <div class="colour">Affordable</div>
+                     Educational Platform</h1>
+                                          Unlock your potential by signing up with Physics Wallah-
+                                          <div class="line">The most affordable learning solution</div></span>
+                      <button class="started">Get Started</button>                    
+            </div>
+        </div>
+        
+        <div class="solving">
+          <div class="infoflex">
+            <div class="dow">
+              <div class="img"><img class="contt" src="Images/live.jpg"></div>
+              <div class="inside"><h3>Daily Live</h3></div>
+              <div class="downinfo">Interactive classes</div>
+            </div>  
+            <div class="dow">
+              <div class="img"><img class="contt" src="Images/sample paper.webp"></div>
+              <div class="inside"><h3>10 Million +</h3></div>
+              <div class="downinfo">Tests, sample papers & notes</div>
+            </div> 
+            <div class="dow">
+              <div class="img"><img class="contt" src="Images/doubt.webp"></div>
+              <div class="inside"><h3>24 x 7</h3></div>
+              <div class="downinfo">Doubt solving sessions</div>
+            </div>  
+            <div class="dow">
+              <div class="img"><img class="contt" src="Images/centre.jpg"></div>
+              <div class="inside"><h3>100 +</h3></div>
+              <div class="downinfo">Offline centres</div>
+            </div>  
+          </div> 
+        </div>
+
+
+        <div class="categories">
+            <h1>Exam Categories</h1>
+            <p>PW is preparing students for 35+ exam categories. Scroll down to find the one you are preparing for</p>
+        </div>
+        <div class="catt">
+            <div class="cate">
+                <h1>NEET</h1>
+                <div class="paddin">
+                <button class="butt">class 11</button>
+                <button class="butt">class 12</button><br></div>
+                <div class="padd">
+                <button class="butt">Dropper</button></div>
+                <span><img class="NEET" src="Images/neet.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+        </div>
+            <div class="cate">
+                <h1>IIT JEE</h1>
+                <div class="paddin">
+                <button class="butt">class 11</button>
+                <button class="butt">class 12</button><br></div>
+                <div class="padd">
+                <button class="butt">Dropper</button></div>
+                <span><img class="NEET" src="Images/jee.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+            </div>
+            <div class="cate">
+                <h1>School Preparation</h1>
+                <div class="paddin">
+                <button class="butt">class 6</button>
+                <button class="butt">class 7</button><br></div>
+                <div class="padd">
+                <button class="butt">class 8</button>
+                <button class="butt">more</button></div>
+                <span><img class="NEET" src="Images/school prep.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+            </div>
+            <div class="cate">
+                <h1>UPSC</h1>
+                <div class="paddin"></div>
+                <span><img class="UPSC" src="Images/UPSC.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+            </div>
+            <div class="cate">
+                <h1>GOVT Job Exams</h1>
+                <div class="paddin">
+                <button class="butt">SSC</button>
+                <button class="butt">Banking</button><br></div>
+                <div class="padd">
+                <button class="butt">Teaching</button>
+                <button class="butt">Judiciary</button></div>
+                <span><img class="NEET" src="Images/govt exam.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+            </div>
+            <div class="cate">
+                <h1>Defence</h1>
+                <div class="paddin">
+                <button class="butt">NDA</button>
+                <button class="butt">CDS</button><br></div>
+                <div class="padd">
+                <button class="butt">Afcat</button>
+                <button class="butt">Agniveer</button></div>
+                <span><img class="NEET" src="Images/defence.webp"></span>
+                <div>Explore Categories
+                <button class="butt">--></button></div>
+            </div>
+            </div>
+    <footer>
+        <div class="footercontainer">
+            <div class="footercolumn">
+                <h3>Our Centres</h3>
+                <a href="#">New Delhi</a>
+                <a href="#">Patna</a>
+                <a href="#">Kota</a>
+                <a href="#">Noida</a>
+                <a href="#">Dhanbad</a>
+                <a href="#">Varanasi</a>
+                <a href="#">View all</a>
+            </div>
+            <div class="footercolumn">
+                <h3>Popular Exams</h3>
+                <a href="#">IIT JEE</a>
+                <a href="#">NEET</a>
+                <a href="#">GATE</a>
+                <a href="#">Defence</a>
+                <a href="#">UPSC</a>
+                <a href="#">School Prep<a>
+            </div>
+            <div class="footercolumn">
+                <h3>Our Other Websites</h3>
+                <a href="#">PW Store</a>
+                <a href="#">PW Skills</a>
+                <a href="#">PWOnlyIAS</a>
+                <a href="#">MedEd</a>
+                <a href="#">PW Gulf</a>
+                <a href="#">PW IOI<a>
+            </div>
+            <div class="footercolumn">
+                <h3>Other Exams</h3>
+                <a href="#">CA Exam</a>
+                <a href="#">Olympaid Exam</a>
+                <a href="#">Online Degree</a>
+                <a href="#">ACCA Exam</a>
+                <a href="#">Company Secretary</a>
+            </div>
+            <div class="footercolumn">
+                <h3>Offline Centres</h3>
+                <a href="#">Vidyapeeth</a>
+                <a href="#">OnlyIAS UPSC Centres</a>
+                <a href="#">Superclass</a>
+                <a href="#">GOVT Wallah Coaching Centres</a>
+                <a href="#">Defence Coaching Centres</a>
+            </div>
+
+        </div>
+    </footer>
+
+
+        </div>
+        </div>
+    </main>
+
+    <script src="PWClone.js"></script>
+    
+</body>
+</html>
+
